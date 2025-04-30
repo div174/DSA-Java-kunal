@@ -20,7 +20,7 @@ public class Swap {
     }
 
     static void changeName(String naam) {
-        naam = "Rahul Rana"; // creating a new object
+        naam = "Rahul Rana"; // creating a new object,nt changing the obj
     }
 
     static void swap(int num1, int num2) {
@@ -30,3 +30,5 @@ public class Swap {
         // this change will only be valid in this function scope only.
     }
 }
+// primitives-int,char,byte,short---only value is passed
+// objects--val of ref is passed

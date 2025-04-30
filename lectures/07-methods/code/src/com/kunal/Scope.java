@@ -7,7 +7,7 @@ public class Scope {
         String name = "Kunal";
         {
 //                int a = 78; // already initialised outside the block in the same method, hence you cannot initialise again
-                a = 100; // reassign the origin ref variable to some other value
+                a = 100; // reassign the original ref variable to some other value
             System.out.println(a);
                 int c = 99;
                 name = "Rahul";
@@ -23,6 +23,7 @@ public class Scope {
         for (int i = 0; i < 4; i++) {
 //            System.out.println(i);
             int num = 90;
+            // int a=11;
             a = 10000;
         }
         System.out.println();
@@ -34,3 +35,5 @@ public class Scope {
         System.out.println(marks);
     }
 }
+// anything that is initialised outside can be used, modified bt nt initialised in the block
+// anything that is initialised inside the block, cant be used,modified bt can be initialised outside
